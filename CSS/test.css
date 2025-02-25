@@ -1,0 +1,33 @@
+body{
+    background-color: #b3b3b3;
+}
+
+/*Declaration Block*/
+h1{
+    /*!declaration properties*/
+    font-size: 30px;
+    color: #345678;
+}
+h2{
+    /*!declaration properties*/
+    font-size: 20px;
+    color: #F67823;
+}
+h2{
+    /*In case of conflict between ruleset stylings like having multiple color for h2, whatver is specified last is selected*/
+    color:#1208a1
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.big{
+    font-size: 60px;
+}
+.big.uppercase{
+    /*only works when both this classes are combined*/
+    color: #0cc285;
+}
+h1 span{
+    /*Only works on span elements inside h*/
+    color:#583303
+}
